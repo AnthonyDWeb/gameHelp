@@ -43,18 +43,16 @@ main {
 .container {
   border-radius: 15px;
   background-color: gray;
-  padding: 0 3rem;
+  padding: 0 3rem 1.5rem 3rem;
 }
 .main-title {
+  color: black;
+  text-shadow: 2px 2px 2px white;
   text-align: center;
   font-size: 3rem;
-  background: linear-gradient(rgb(238, 6, 6), rgb(248, 211, 3));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .subtitle {
   font-size: 2rem;
-  background: linear-gradient(rgb(248, 211, 3), rgb(238, 6, 6));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
