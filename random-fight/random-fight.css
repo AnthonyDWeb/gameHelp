@@ -1,0 +1,66 @@
+body{
+    min-height: 45.1rem;
+    background: linear-gradient(-0.1turn, #8f1b8f, #c52626, #8f1b8f);
+}
+
+.mainTitle{
+    text-align: center;
+    margin: 5%;
+}
+.button{
+    float: right;
+    margin-right: 4%;
+}
+.parameter{
+    display: flex;
+    justify-content: space-around;
+}
+.parameter p{
+    border: solid black 2px;
+    background: linear-gradient(-0.15turn, #7a687a, #e6e3e3, #7a687a);
+    padding: 2%;
+}
+.parameter input{
+    width: 2rem;
+}
+.resultTitle{
+    text-align: center;
+}
+#resultat{
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+}
+.divisionContaint{
+    width: 100%;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content: center;
+}
+.paragraph{
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border: solid black 1px;
+    background: linear-gradient(0.25turn, #7a687a, #e6e3e3, #7a687a);
+}
+@media (max-width: 500px) {
+    .mainDivision{
+        display: block;
+    }
+    .sub-ddivision{
+        display: block;
+        margin:20%;
+    }
+    .parameter{
+        flex-wrap: wrap;
+    }
+    .parameter input{
+        width: 1.25rem;
+    }
+    .button{
+        margin-right:30% ;
+    }
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./indexRF.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./random-fight.css">
+    <title>Random Fight</title>
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Homepage</a></li>
+                <li><a href="../fight-calculator/calculator.html">Fight Calculator</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <h1 class="mainTitle">Random Fight</h1>
+
+    <div class="sub-division">
+        <div class="parameter">
+            <p>Nombre de Joueur : <input id="numberOfPlayer" type="number" value="1"></p>
+            <p>Nombre de colonnes: <input id="numberOfColumn" type="number" value="1"></p>
+            <p>Nombre de lignes: <input id="numberOfLine" type="number" value="1"></p>
+            <p>Nombre de personnages: <input id="numberOfCharacter" type="number" value="1"></p>
+        </div>
+        <!-- <button class="button" onclick="reset()">Reset !</button> -->
+        <button class="button" onclick="result()">Valider !</button>
+    </div>
+    <h2 class="resultTitle">Résultat</h2>
+    <div id="resultat">
+
+    </div>
+    <script type="text/javascript" src="./random-fight.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>Fight Calculator</title>
+</head>
+
+<body>
+
+    <Header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Homepage</a></li>
+                <li><a href="../random-fight/random-fight.html">Random Fight</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <h1 class="mainTitle">Fight Calculator</h1>
+<div class="mainDivision">
+    
+    <div class="sub-ddivision">
+        <div class="parameter">
+            <p>Objectif de Points : <input id="pointGoal" type="number" value="1"></p>
+            <p>Points du Joueur : <input id="playerPoints" type="number" value="1"></p>
+            <p>Points par Combats : <input id="fightPoints" type="number" value="1"></p>
+            <p>Nombre de Vies : <input id="numberOfLife" type="number" value="1"></p>
+        </div>
+        <button class="button" onclick="result()">Valider !</button>
+    </div>
+    
+    <div class="div-result">
+        <h2 class="resultTitle">Résultat</h2>
+        <div id="resultat">
+            <h3 id="pointsgoal" class="divisionContaint"></h3>
+            <h3 id="maxpoints" class="divisionContaint"></h3>
+        </div>
+    </div>
+
+</div>
+    <script type="text/javascript" src="./calculator.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h3 {
+  margin: 1.5rem 0;
+}
+p {
+  margin: 0.5rem;
+}
+/* HEADER */
+nav {
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(252, 2, 2);
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 41.7rem;
+  background: -webkit-linear-gradient(rgb(242, 255, 56), rgb(199, 72, 72));
+}
+.container {
+  border-radius: 15px;
+  background-color: gray;
+  padding: 0 3rem;
+}
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(rgb(238, 6, 6), rgb(248, 211, 3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle {
+  font-size: 2rem;
+  background: linear-gradient(rgb(248, 211, 3), rgb(238, 6, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
